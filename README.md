@@ -1,5 +1,5 @@
 # 生物信息学个人主页
-[欢迎关注本人gitee~](https://gitee.com/qql770/770s-bioinformatics)
+[欢迎关注本人git~](https://github.com/77074)
 
 ## 第一课学习笔记
 ### lecture
@@ -9,15 +9,20 @@
 
 ### git自学记录
 * 先注册git
-（github最近又被墙了，所以还是转战Gitee了)
-~~（亲爱的TA：这就是我没有使用gitpage的理由……）~~
+Git 校园网墙了，改热点试试~
 
 * 下载[gitbash](https://git-scm.com/download)
 不然没法关联本地库和远程库~
 下载链接用本人梯子(奈云）依然上不去，可以试试**北大vpn** ，硬件要求是**一个北大同学**
 
-* 下载后跟着教程走，命令有点复杂…… 大致流程是：获取一个ssh公钥，然后把公钥复制给仓库即可
-**（注意仓库需要对应网址）**
+* 下载后跟着教程走，命令有点复杂…… 大致流程是：登陆全局姓名邮箱，获取一个ssh公钥，然后把公钥复制给仓库即可
+*  **注意设置branch : `git branch -m master main` **
+* git init
+* git commit -m "commit"
+* git pull --rebase origin main
+* git push -u origin main
+* 
+**（注意仓库需要对应网址+.git）**
 
 * 一些**报错处理**已经收录在本人仓库的readme了，也是处理地稀里糊涂…… 
 
